@@ -1,0 +1,418 @@
+
+Updating source code.
+
+Updating build files.
+Resolved location of library project to: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library
+Updated and renamed default.properties to project.properties
+Updated local.properties
+Added file C:\renpy-6.18.3-sdk\rapt\build.xml
+Updated file C:\renpy-6.18.3-sdk\rapt\proguard-project.txt
+It seems that there are sub-projects. If you want to update them
+please use the --subprojects parameter.
+
+
+
+
+Creating assets directory.
+
+Packaging internal data.
+
+I'm using Ant to build the package.
+Buildfile: C:\renpy-6.18.3-sdk\rapt\build.xml
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at C:\renpy-6.18.3-sdk\rapt\android-sdk-r23
+
+-setup:
+     [echo] Project Name: RockPaperScissorsChampion-1.1
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory C:\renpy-6.18.3-sdk\rapt\bin
+   [delete] Deleting directory C:\renpy-6.18.3-sdk\rapt\gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at C:\renpy-6.18.3-sdk\rapt\android-sdk-r23
+
+-setup:
+     [echo] Project Name: library
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin
+   [delete] Deleting directory C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\gen
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at C:\renpy-6.18.3-sdk\rapt\android-sdk-r23
+
+-setup:
+     [echo] Project Name: downloader_library
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin
+   [delete] Deleting directory C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\gen
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+     [echo] proguard.config is ${proguard.config}
+
+-pre-build:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at C:\renpy-6.18.3-sdk\rapt\android-sdk-r23
+
+-setup:
+     [echo] Project Name: RockPaperScissorsChampion-1.1
+  [gettype] Project Type: Application
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for RockPaperScissorsChampion-1.1...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\bin
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\bin\res
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\bin\rsObj
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\bin\rsLibs
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\gen
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\bin\classes
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\bin\dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for RockPaperScissorsChampion-1.1...
+[dependency] Ordered libraries:
+[dependency] C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library
+[dependency] C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library
+[dependency] 
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'release'...
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+nodeps:
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+     [echo] proguard.config is ${proguard.config}
+
+-pre-build:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at C:\renpy-6.18.3-sdk\rapt\android-sdk-r23
+
+-setup:
+     [echo] Project Name: library
+  [gettype] Project Type: Android Library
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for library...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\res
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\rsObj
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\rsLibs
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\gen
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\classes
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for library...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 19 source files to C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\classes
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] Note: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\src\com\google\android\vending\licensing\LicenseChecker.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 3 warnings
+     [echo] Creating library output jar file...
+      [jar] Building jar: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\classes.jar
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+     [echo] Library project: do not convert bytecode...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\res
+   [crunch] To destination dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\res
+   [crunch] Crunched 0 PNG files to update cache
+
+-package-resources:
+     [echo] Library project: do not package resources...
+
+-package:
+     [echo] Library project: do not package apk...
+
+-post-package:
+
+-release-prompt-for-password:
+
+-release-nosign:
+     [echo] 
+[propertyfile] Creating new property file: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\build.prop
+[propertyfile] Updating property file: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\build.prop
+[propertyfile] Updating property file: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\build.prop
+[propertyfile] Updating property file: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\build.prop
+
+-release-sign:
+
+-post-build:
+
+release:
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+nodeps:
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+     [echo] proguard.config is ${proguard.config}
+
+-pre-build:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at C:\renpy-6.18.3-sdk\rapt\android-sdk-r23
+
+-setup:
+     [echo] Project Name: downloader_library
+  [gettype] Project Type: Android Library
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for downloader_library...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\res
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\rsObj
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\rsLibs
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\gen
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\classes
+    [mkdir] Created dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for downloader_library...
+[dependency] Library dependencies:
+[dependency] 
+[dependency] ------------------
+[dependency] Ordered libraries:
+[dependency] 
+[dependency] ------------------
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 22 source files to C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\classes
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 3 warnings
+     [echo] Creating library output jar file...
+      [jar] Building jar: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\classes.jar
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+     [echo] Library project: do not convert bytecode...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\res
+   [crunch] To destination dir: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\res
+   [crunch] Processing image to cache: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\res\drawable-hdpi\notify_panel_notification_icon_bg.png => C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\res\drawable-hdpi\notify_panel_notification_icon_bg.png
+   [crunch]   (processed image to cache entry C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\res\drawable-hdpi\notify_panel_notification_icon_bg.png: 0% size of source)
+   [crunch] Processing image to cache: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\res\drawable-mdpi\notify_panel_notification_icon_bg.png => C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\res\drawable-mdpi\notify_panel_notification_icon_bg.png
+   [crunch]   (processed image to cache entry C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\res\drawable-mdpi\notify_panel_notification_icon_bg.png: 0% size of source)
+   [crunch] Crunched 2 PNG files to update cache
+
+-package-resources:
+     [echo] Library project: do not package resources...
+
+-package:
+     [echo] Library project: do not package apk...
+
+-post-package:
+
+-release-prompt-for-password:
+
+-release-nosign:
+     [echo] 
+[propertyfile] Creating new property file: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\build.prop
+[propertyfile] Updating property file: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\build.prop
+[propertyfile] Updating property file: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\build.prop
+[propertyfile] Updating property file: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\build.prop
+
+-release-sign:
+
+-post-build:
+
+release:
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] Found 1 AIDL files.
+     [aidl] Compiling 1 AIDL files.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 39 source files to C:\renpy-6.18.3-sdk\rapt\bin\classes
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 3 warnings
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: C:\renpy-6.18.3-sdk\rapt\bin\classes
+      [dex] input: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\classes.jar
+      [dex] input: C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\classes.jar
+      [dex] input: C:\renpy-6.18.3-sdk\rapt\libs\Amazon-InAppSDK-Purchasing.jar
+      [dex] input: C:\renpy-6.18.3-sdk\rapt\libs\ouya-sdk.jar
+      [dex] Pre-Dexing C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_apk_expansion\downloader_library\bin\classes.jar -> classes-72ed5e6254f371bd6d0ff96152019eaf.jar
+      [dex] Pre-Dexing C:\renpy-6.18.3-sdk\rapt\android-sdk-r23\extras\google\play_licensing\library\bin\classes.jar -> classes-962af60b8651fec506e5b94fd97f141a.jar
+      [dex] Pre-Dexing C:\renpy-6.18.3-sdk\rapt\libs\Amazon-InAppSDK-Purchasing.jar -> Amazon-InAppSDK-Purchasing-36a35f6a1a6d584752c4655954263d1c.jar
+      [dex] Pre-Dexing C:\renpy-6.18.3-sdk\rapt\libs\ouya-sdk.jar -> ouya-sdk-1b14e6abc3e5dafa94934e5cd7f521dc.jar
+      [dex] Converting compiled files and external libraries into C:\renpy-6.18.3-sdk\rapt\bin\classes.dex...
+       [dx] Merged dex A (88 defs/127.4KiB) with dex B (47 defs/88.1KiB). Result is 135 defs/253.2KiB. Took 0.1s
+       [dx] Merged dex A (135 defs/253.2KiB) with dex B (25 defs/35.5KiB). Result is 160 defs/352.3KiB. Took 0.0s
+       [dx] Merged dex A (160 defs/352.3KiB) with dex B (85 defs/58.1KiB). Result is 245 defs/528.8KiB. Took 0.0s
+       [dx] Merged dex A (245 defs/528.8KiB) with dex B (138 defs/123.2KiB). Result is 383 defs/890.0KiB. Took 0.0s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: C:\renpy-6.18.3-sdk\rapt\res
+   [crunch] To destination dir: C:\renpy-6.18.3-sdk\rapt\bin\res
+   [crunch] Processing image to cache: C:\renpy-6.18.3-sdk\rapt\res\drawable-hdpi\ic_launcher.png => C:\renpy-6.18.3-sdk\rapt\bin\res\drawable-hdpi\ic_launcher.png
+   [crunch]   (processed image to cache entry C:\renpy-6.18.3-sdk\rapt\bin\res\drawable-hdpi\ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: C:\renpy-6.18.3-sdk\rapt\res\drawable-xhdpi\ouya_icon.png => C:\renpy-6.18.3-sdk\rapt\bin\res\drawable-xhdpi\ouya_icon.png
+   [crunch]   (processed image to cache entry C:\renpy-6.18.3-sdk\rapt\bin\res\drawable-xhdpi\ouya_icon.png: 84% size of source)
+   [crunch] Processing image to cache: C:\renpy-6.18.3-sdk\rapt\res\drawable\icon.png => C:\renpy-6.18.3-sdk\rapt\bin\res\drawable\icon.png
+   [crunch]   (processed image to cache entry C:\renpy-6.18.3-sdk\rapt\bin\res\drawable\icon.png: 0% size of source)
+   [crunch] Crunched 3 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating RockPaperScissorsChampion-1.1-release-unsigned.apk for release...
+
+-post-package:
+
+-release-prompt-for-password:
+
+-release-nosign:
+
+-release-sign:
+     [echo] Signing final apk...
+ [zipalign] Running zip align on final apk...
+     [echo] Release Package: C:\renpy-6.18.3-sdk\rapt\bin\RockPaperScissorsChampion-1.1-release.apk
+[propertyfile] Creating new property file: C:\renpy-6.18.3-sdk\rapt\bin\build.prop
+[propertyfile] Updating property file: C:\renpy-6.18.3-sdk\rapt\bin\build.prop
+[propertyfile] Updating property file: C:\renpy-6.18.3-sdk\rapt\bin\build.prop
+[propertyfile] Updating property file: C:\renpy-6.18.3-sdk\rapt\bin\build.prop
+
+-post-build:
+
+release:
+
+BUILD SUCCESSFUL
+Total time: 26 seconds
+
+
+
+
+The build seems to have succeeded.

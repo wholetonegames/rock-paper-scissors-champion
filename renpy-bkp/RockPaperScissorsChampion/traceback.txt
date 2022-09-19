@@ -1,0 +1,29 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 1000, in script
+    python:
+  File "game/script.rpy", line 1002, in <module>
+    winner=rsp_game(player,opponent)
+  File "game/script.rpy", line 36, in rsp_game
+    return results[moves.index(m1) + moves.index(m2) - 1]
+IndexError: tuple index out of range
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 1000, in script
+    python:
+  File "C:\renpy\renpy\ast.py", line 814, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\renpy\renpy\python.py", line 1719, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 1002, in <module>
+    winner=rsp_game(player,opponent)
+  File "game/script.rpy", line 36, in rsp_game
+    return results[moves.index(m1) + moves.index(m2) - 1]
+IndexError: tuple index out of range
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+RockPaperScissor 1.0

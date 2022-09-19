@@ -1,0 +1,32 @@
+Sat Dec 16 12:04:18 2017
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+ 
+
+Bootstrap to the start of init.init took 0.20s
+Early init took 0.03s
+Loader init took 0.05s
+Loading error handling took 0.30s
+Loading script took 5.68s
+Loading persistent took 0.02s
+Imported steam.
+Failed to initialize steam.
+Running init code took 0.60s
+Loading analysis data took 0.00s
+Analyze and compile ATL took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\jjj\\AppData\\Roaming/RenPy/backups\\RockPaperScissorsChampion':
+Dump and make backups. took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+DPI scale factor: 1.000000
+Creating interface object took 0.05s
+Cleaning stores took 0.00s
+Init translation took 0.01s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.09s
+Prepare screens took 0.16s
+Save pyanalysis. took 0.12s
+Save bytecode. took 0.10s
